@@ -16,8 +16,7 @@ chartView.backgroundColor = [UIColor whiteColor];
 ```
 
 #### 展示效果
-https://github.com/Evelyn-zn/GradientLineChart/raw/master/GradientLineChart/效果图.png
-
+![效果图展示](https://github.com/Evelyn-zn/GradientLineChart/blob/master/images/%E6%95%88%E6%9E%9C%E5%9B%BE.png)
 
 
 
