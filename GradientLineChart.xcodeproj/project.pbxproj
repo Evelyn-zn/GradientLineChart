@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A85B74BB1FE909E40019DA22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A85B74BA1FE909E40019DA22 /* AppDelegate.m */; };
+		A85B74BE1FE909E40019DA22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A85B74BD1FE909E40019DA22 /* ViewController.m */; };
+		A85B74C11FE909E40019DA22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85B74BF1FE909E40019DA22 /* Main.storyboard */; };
+		A85B74C31FE909E40019DA22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85B74C21FE909E40019DA22 /* Assets.xcassets */; };
+		A85B74C61FE909E40019DA22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85B74C41FE909E40019DA22 /* LaunchScreen.storyboard */; };
+		A85B74C91FE909E40019DA22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A85B74C81FE909E40019DA22 /* main.m */; };
+		A85B74D31FE909E40019DA22 /* GradientLineChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A85B74D21FE909E40019DA22 /* GradientLineChartTests.m */; };
+		A85B74DE1FE909E40019DA22 /* GradientLineChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A85B74DD1FE909E40019DA22 /* GradientLineChartUITests.m */; };
+		A85B74ED1FE90A2B0019DA22 /* FDGradientLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = A85B74EC1FE90A2B0019DA22 /* FDGradientLineChartView.m */; };
+		F148C828FD82EC02DF998B05 /* libPods-GradientLineChart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD606F7360438A0124ECB9AB /* libPods-GradientLineChart.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A85B74CF1FE909E40019DA22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85B74AE1FE909E40019DA22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A85B74B51FE909E40019DA22;
+			remoteInfo = GradientLineChart;
+		};
+		A85B74DA1FE909E40019DA22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85B74AE1FE909E40019DA22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A85B74B51FE909E40019DA22;
+			remoteInfo = GradientLineChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D0C07A6077767B7C9C4E903 /* Pods-GradientLineChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradientLineChart.release.xcconfig"; path = "Pods/Target Support Files/Pods-GradientLineChart/Pods-GradientLineChart.release.xcconfig"; sourceTree = "<group>"; };
+		8CB9AAC3DD309C5379E30E84 /* Pods-GradientLineChart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradientLineChart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GradientLineChart/Pods-GradientLineChart.debug.xcconfig"; sourceTree = "<group>"; };
+		A85B74B61FE909E40019DA22 /* GradientLineChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientLineChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85B74B91FE909E40019DA22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A85B74BA1FE909E40019DA22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A85B74BC1FE909E40019DA22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A85B74BD1FE909E40019DA22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A85B74C01FE909E40019DA22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A85B74C21FE909E40019DA22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A85B74C51FE909E40019DA22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A85B74C71FE909E40019DA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A85B74C81FE909E40019DA22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A85B74CE1FE909E40019DA22 /* GradientLineChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientLineChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85B74D21FE909E40019DA22 /* GradientLineChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientLineChartTests.m; sourceTree = "<group>"; };
+		A85B74D41FE909E40019DA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A85B74D91FE909E40019DA22 /* GradientLineChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientLineChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85B74DD1FE909E40019DA22 /* GradientLineChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientLineChartUITests.m; sourceTree = "<group>"; };
+		A85B74DF1FE909E40019DA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A85B74EB1FE90A2B0019DA22 /* FDGradientLineChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDGradientLineChartView.h; sourceTree = "<group>"; };
+		A85B74EC1FE90A2B0019DA22 /* FDGradientLineChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDGradientLineChartView.m; sourceTree = "<group>"; };
+		DD606F7360438A0124ECB9AB /* libPods-GradientLineChart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GradientLineChart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A85B74B31FE909E40019DA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F148C828FD82EC02DF998B05 /* libPods-GradientLineChart.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85B74CB1FE909E40019DA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85B74D61FE909E40019DA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		028834152F4379B0B7D625D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD606F7360438A0124ECB9AB /* libPods-GradientLineChart.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8367CEC8D6508ED7D1546E8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9AAC3DD309C5379E30E84 /* Pods-GradientLineChart.debug.xcconfig */,
+				4D0C07A6077767B7C9C4E903 /* Pods-GradientLineChart.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A85B74AD1FE909E40019DA22 = {
+			isa = PBXGroup;
+			children = (
+				A85B74B81FE909E40019DA22 /* GradientLineChart */,
+				A85B74D11FE909E40019DA22 /* GradientLineChartTests */,
+				A85B74DC1FE909E40019DA22 /* GradientLineChartUITests */,
+				A85B74B71FE909E40019DA22 /* Products */,
+				8367CEC8D6508ED7D1546E8A /* Pods */,
+				028834152F4379B0B7D625D3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A85B74B71FE909E40019DA22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A85B74B61FE909E40019DA22 /* GradientLineChart.app */,
+				A85B74CE1FE909E40019DA22 /* GradientLineChartTests.xctest */,
+				A85B74D91FE909E40019DA22 /* GradientLineChartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A85B74B81FE909E40019DA22 /* GradientLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				A85B74B91FE909E40019DA22 /* AppDelegate.h */,
+				A85B74BA1FE909E40019DA22 /* AppDelegate.m */,
+				A85B74BC1FE909E40019DA22 /* ViewController.h */,
+				A85B74BD1FE909E40019DA22 /* ViewController.m */,
+				A85B74EB1FE90A2B0019DA22 /* FDGradientLineChartView.h */,
+				A85B74EC1FE90A2B0019DA22 /* FDGradientLineChartView.m */,
+				A85B74BF1FE909E40019DA22 /* Main.storyboard */,
+				A85B74C21FE909E40019DA22 /* Assets.xcassets */,
+				A85B74C41FE909E40019DA22 /* LaunchScreen.storyboard */,
+				A85B74C71FE909E40019DA22 /* Info.plist */,
+				A85B74C81FE909E40019DA22 /* main.m */,
+			);
+			path = GradientLineChart;
+			sourceTree = "<group>";
+		};
+		A85B74D11FE909E40019DA22 /* GradientLineChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				A85B74D21FE909E40019DA22 /* GradientLineChartTests.m */,
+				A85B74D41FE909E40019DA22 /* Info.plist */,
+			);
+			path = GradientLineChartTests;
+			sourceTree = "<group>";
+		};
+		A85B74DC1FE909E40019DA22 /* GradientLineChartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A85B74DD1FE909E40019DA22 /* GradientLineChartUITests.m */,
+				A85B74DF1FE909E40019DA22 /* Info.plist */,
+			);
+			path = GradientLineChartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A85B74B51FE909E40019DA22 /* GradientLineChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85B74E21FE909E40019DA22 /* Build configuration list for PBXNativeTarget "GradientLineChart" */;
+			buildPhases = (
+				C69C3C26D2CCB369DE93291B /* [CP] Check Pods Manifest.lock */,
+				A85B74B21FE909E40019DA22 /* Sources */,
+				A85B74B31FE909E40019DA22 /* Frameworks */,
+				A85B74B41FE909E40019DA22 /* Resources */,
+				142120F52F1FDF33F0F9A5FD /* [CP] Embed Pods Frameworks */,
+				BD4815CCB135C99DC0453AFE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradientLineChart;
+			productName = GradientLineChart;
+			productReference = A85B74B61FE909E40019DA22 /* GradientLineChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A85B74CD1FE909E40019DA22 /* GradientLineChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85B74E51FE909E40019DA22 /* Build configuration list for PBXNativeTarget "GradientLineChartTests" */;
+			buildPhases = (
+				A85B74CA1FE909E40019DA22 /* Sources */,
+				A85B74CB1FE909E40019DA22 /* Frameworks */,
+				A85B74CC1FE909E40019DA22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A85B74D01FE909E40019DA22 /* PBXTargetDependency */,
+			);
+			name = GradientLineChartTests;
+			productName = GradientLineChartTests;
+			productReference = A85B74CE1FE909E40019DA22 /* GradientLineChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A85B74D81FE909E40019DA22 /* GradientLineChartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85B74E81FE909E40019DA22 /* Build configuration list for PBXNativeTarget "GradientLineChartUITests" */;
+			buildPhases = (
+				A85B74D51FE909E40019DA22 /* Sources */,
+				A85B74D61FE909E40019DA22 /* Frameworks */,
+				A85B74D71FE909E40019DA22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A85B74DB1FE909E40019DA22 /* PBXTargetDependency */,
+			);
+			name = GradientLineChartUITests;
+			productName = GradientLineChartUITests;
+			productReference = A85B74D91FE909E40019DA22 /* GradientLineChartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A85B74AE1FE909E40019DA22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Evelyn;
+				TargetAttributes = {
+					A85B74B51FE909E40019DA22 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A85B74CD1FE909E40019DA22 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A85B74B51FE909E40019DA22;
+					};
+					A85B74D81FE909E40019DA22 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A85B74B51FE909E40019DA22;
+					};
+				};
+			};
+			buildConfigurationList = A85B74B11FE909E40019DA22 /* Build configuration list for PBXProject "GradientLineChart" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A85B74AD1FE909E40019DA22;
+			productRefGroup = A85B74B71FE909E40019DA22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A85B74B51FE909E40019DA22 /* GradientLineChart */,
+				A85B74CD1FE909E40019DA22 /* GradientLineChartTests */,
+				A85B74D81FE909E40019DA22 /* GradientLineChartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A85B74B41FE909E40019DA22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85B74C61FE909E40019DA22 /* LaunchScreen.storyboard in Resources */,
+				A85B74C31FE909E40019DA22 /* Assets.xcassets in Resources */,
+				A85B74C11FE909E40019DA22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85B74CC1FE909E40019DA22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85B74D71FE909E40019DA22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		142120F52F1FDF33F0F9A5FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GradientLineChart/Pods-GradientLineChart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD4815CCB135C99DC0453AFE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GradientLineChart/Pods-GradientLineChart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C69C3C26D2CCB369DE93291B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GradientLineChart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A85B74B21FE909E40019DA22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85B74BE1FE909E40019DA22 /* ViewController.m in Sources */,
+				A85B74ED1FE90A2B0019DA22 /* FDGradientLineChartView.m in Sources */,
+				A85B74C91FE909E40019DA22 /* main.m in Sources */,
+				A85B74BB1FE909E40019DA22 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85B74CA1FE909E40019DA22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85B74D31FE909E40019DA22 /* GradientLineChartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85B74D51FE909E40019DA22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85B74DE1FE909E40019DA22 /* GradientLineChartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A85B74D01FE909E40019DA22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A85B74B51FE909E40019DA22 /* GradientLineChart */;
+			targetProxy = A85B74CF1FE909E40019DA22 /* PBXContainerItemProxy */;
+		};
+		A85B74DB1FE909E40019DA22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A85B74B51FE909E40019DA22 /* GradientLineChart */;
+			targetProxy = A85B74DA1FE909E40019DA22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A85B74BF1FE909E40019DA22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A85B74C01FE909E40019DA22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A85B74C41FE909E40019DA22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A85B74C51FE909E40019DA22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A85B74E01FE909E40019DA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A85B74E11FE909E40019DA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A85B74E31FE909E40019DA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CB9AAC3DD309C5379E30E84 /* Pods-GradientLineChart.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GradientLineChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freedom.GradientLineChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A85B74E41FE909E40019DA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D0C07A6077767B7C9C4E903 /* Pods-GradientLineChart.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GradientLineChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freedom.GradientLineChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A85B74E61FE909E40019DA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GradientLineChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freedom.GradientLineChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradientLineChart.app/GradientLineChart";
+			};
+			name = Debug;
+		};
+		A85B74E71FE909E40019DA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GradientLineChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freedom.GradientLineChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradientLineChart.app/GradientLineChart";
+			};
+			name = Release;
+		};
+		A85B74E91FE909E40019DA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GradientLineChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freedom.GradientLineChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GradientLineChart;
+			};
+			name = Debug;
+		};
+		A85B74EA1FE909E40019DA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GradientLineChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.freedom.GradientLineChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GradientLineChart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A85B74B11FE909E40019DA22 /* Build configuration list for PBXProject "GradientLineChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85B74E01FE909E40019DA22 /* Debug */,
+				A85B74E11FE909E40019DA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85B74E21FE909E40019DA22 /* Build configuration list for PBXNativeTarget "GradientLineChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85B74E31FE909E40019DA22 /* Debug */,
+				A85B74E41FE909E40019DA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85B74E51FE909E40019DA22 /* Build configuration list for PBXNativeTarget "GradientLineChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85B74E61FE909E40019DA22 /* Debug */,
+				A85B74E71FE909E40019DA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85B74E81FE909E40019DA22 /* Build configuration list for PBXNativeTarget "GradientLineChartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85B74E91FE909E40019DA22 /* Debug */,
+				A85B74EA1FE909E40019DA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A85B74AE1FE909E40019DA22 /* Project object */;
+}

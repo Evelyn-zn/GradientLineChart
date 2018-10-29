@@ -1,0 +1,6 @@
+platform:ios, '8.0'
+#use_frameworks!
+target 'GradientLineChart' do
+pod 'SDWebImage'
+pod 'Masonry'
+end
